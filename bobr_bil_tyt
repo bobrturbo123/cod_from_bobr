@@ -1,0 +1,12 @@
+import tkinter as tk
+
+win = tk.Tk
+
+canvas = tk.Canvas(win, bg='#fff',width=700,height=700)
+for i in range(8):
+    i = int(i)
+    zxc =canvas.create_line((i,0),(i,0), fill='black')
+    zxccc = canvas.create_line((0,i),(0,i), fill='black')
+
+
+canvas.pack
